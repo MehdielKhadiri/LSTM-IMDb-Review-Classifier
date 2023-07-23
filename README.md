@@ -12,9 +12,9 @@ The application requires the following software and libraries:
 
 To install the necessary libraries, you can use pip:
 
-\```bash
+```bash
 pip install torch torchtext
-\```
+```
 
 Please note: If you plan to use a CUDA-enabled GPU, make sure to install the [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) and [cuDNN](https://developer.nvidia.com/cudnn) according to the instructions provided by NVIDIA.
 
@@ -22,15 +22,15 @@ Please note: If you plan to use a CUDA-enabled GPU, make sure to install the [CU
 
 After installing the dependencies, you can run the training script:
 
-\```bash
+```bash
 python lstmIMDb.py
-\```
+```
 
 After training, you can run the testing script:
 
-\```bash
+```bash
 python lstmIMDbtest.py
-\```
+```
 
 ## Contributing
 
